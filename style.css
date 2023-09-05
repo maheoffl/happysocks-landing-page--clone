@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: #fdeeec;
+}
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+.nav h5 {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1.5px solid black;
+  border-radius: 50px;
+  margin: 0 10px;
+  padding: 4px 15px;
+  font-weight: 300;
+}
+.center {
+  height: calc(100% - 100px);
+  width: 100%;
+  position: relative;
+  padding: 10px 20px;
+}
+.center h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 110px;
+  text-transform: uppercase;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  z-index: 999;
+  transform: translate(-50%);
+  font-style: italic;
+}
+.center h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 110px;
+  text-transform: uppercase;
+  position: absolute;
+  text-align: center;
+  left: 49%;
+  top: -1.5%;
+  transform: translate(-50%);
+  font-style: italic;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000000;
+  color: transparent;
+}
+.centerimgline {
+  height: 30rem;
+  width: 54rem;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 0%);
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.centerimg {
+  background-image: url(/chai1.png);
+  height: 26rem;
+  width: 49rem;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, 0%);
+  border-radius: 50%;
+  border: 2px solid black;
+  filter: contrast(0.8);
+}
+.limg {
+  height: 190px;
+  width: 250px;
+  position: absolute;
+  background-image: url(/socks.png);
+  background-position: 100% 100%;
+  background-size: cover;
+  left: 16%;
+  top: 27%;
+  transform: rotate(5deg);
+  border: 2px solid black;
+  border-radius: 5px;
+  z-index: 999;
+}
+.limgoverlay {
+  height: 190px;
+  width: 250px;
+  position: absolute;
+  background-image: url(/socks.png);
+  background-position: 100% 100%;
+  background-size: cover;
+  left: 14.8%;
+  top: 29%;
+  transform: rotate(5deg);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.rimg {
+  height: 190px;
+  width: 250px;
+  position: absolute;
+  background-image: url(/shoue1.png);
+  background-position: 100% 100%;
+  background-size: cover;
+  right: 14%;
+  bottom: 10%;
+  transform: rotate(-10deg);
+  border-radius: 5px;
+  border: 1px solid black;
+  z-index: 99;
+}
+.rimgoverlay {
+  height: 190px;
+  width: 250px;
+  position: absolute;
+  background-image: url(/shoue1.png);
+  background-position: bottom;
+  background-size: cover;
+  right: 13%;
+  bottom: 8%;
+  transform: rotate(-10deg);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.explorenow {
+  height: 50px;
+  width: 130px;
+  background-color: rgba(197, 255, 109, 0.732);
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  color: #020202;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  transform: rotate(-5deg);
+}
+.choosesize {
+  height: 50px;
+  width: 130px;
+  background-color: rgba(197, 255, 109, 0.732);
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  color: #020202;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+  transform: rotate(15deg);
+}
